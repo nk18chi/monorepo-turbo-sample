@@ -3,6 +3,7 @@ import User from '../models/User.schema';
 
 const seedData = async () => {
   const count = await User.countDocuments();
+  console.log('count', count);
   if (count > 0) {
     logger.info('Database already seeded');
     return;
