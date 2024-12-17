@@ -1,2 +1,8 @@
-.vercel
 node_modules
+logs
+coverage
+.nx
+dist
+# Sentry Config File
+.sentryclirc
+.vercel
